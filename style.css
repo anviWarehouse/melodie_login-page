@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D8DCEF;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+li{list-style: none}
+a{text-decoration: none; color: purple}
+
+.center-content,
+.border-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basic-padding{padding: 50px}
+.cursor-point{cursor: pointer}
+.cl-white{color: white !important;}
+
+.btn-blue{
+    color: #fff;
+    background-color: purple;
+    border: none;
+    font-family: inherit;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.border-btn{
+    width: 100%;
+    background-color: #fff;
+    padding: 10px 0;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.border-btn img{
+    height: 15px;
+    margin-right: 10px;
+}
+
+/* CONTENT -------------------- */
+
+.main-card{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 1000px;
+    min-height: 600px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0px 0px 20px 13px #0000001a;
+}
+
+.main-card__block-illustration{ width: 100%; position: relative }
+
+.main-card__block-illustration .desc{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0), #000);
+}
+
+.main-card__block-illustration .desc span{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+    margin-top: 20px;
+}
+
+.main-card__block-illustration .img-illustration{ height: 100%; width: 100%; object-fit: cover }
+
+.main-card__block-content{
+    background-color: #fff;
+    flex: 0 0 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo div{
+    height: 35px;
+    width: 35px;
+    background-color: purple;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo.padding-top{ padding-top: 50px}
+.logo div img{ height: 20px }
+.logo span{ font-size: 20px; font-weight: 500 }
+
+.main-card__block-content h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* FORM */
+
+.signup-form .input-group{
+    border: 1px solid #ececec;
+    border-radius: 6px;
+    text-align: left;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.signup-form .input-group input {
+    font-size: 15px;
+    padding: 10px;
+    font-family: inherit;
+    border: none;
+}
+
+.signup-form .input-group input:focus{ outline: none }
+.signup-form .input-group img{ height: 15px }
+
+.signup-form p{
+    margin: 30px 0;
+    font-size: 13px;
+    font-weight: 300;
+    color: #a6aaad;
+}
+
+.box-for-login{
+    background-color: #f4f9f5;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.divider{
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
